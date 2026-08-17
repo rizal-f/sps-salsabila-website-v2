@@ -15,6 +15,7 @@ export default function SentraSection() {
       badge: 'Spiritual & Karakter',
       color: 'from-emerald-500 to-teal-700',
       tabColor: 'border-emerald-500 bg-emerald-50 text-emerald-950',
+      image: '/assets/images/sentra-ibadah.jpeg',
       summary: 'Menumbuhkan kecintaan ananda kepada Allah SWT dan Rasulullah SAW sejak usia emas.',
       points: [
         'Praktik wudhu & sholat dhuha / dzuhur berjamaah dengan tertib',
@@ -31,6 +32,7 @@ export default function SentraSection() {
       badge: 'Sensori & Sains',
       color: 'from-amber-500 to-yellow-700',
       tabColor: 'border-amber-500 bg-amber-50 text-amber-950',
+      image: '/assets/images/sentra-bahan-alam.jpeg',
       summary: 'Eksplorasi tekstur alami dan fenomena alam untuk mengasah rasa ingin tahu ilmiah ananda.',
       points: [
         'Bermain tekstur pasir kinetik, air, biji-bijian, daun kering, dan spons',
@@ -47,6 +49,7 @@ export default function SentraSection() {
       badge: 'Kognitif & Pra-Calistung',
       color: 'from-blue-500 to-indigo-700',
       tabColor: 'border-blue-500 bg-blue-50 text-blue-950',
+      image: '/assets/images/sentra-persiapan.jpg',
       summary: 'Mempersiapkan ananda menyongsong jenjang Sekolah Dasar (SD) dengan gembira tanpa beban stres.',
       points: [
         'Pra-membaca & literasi melalui kartu bergambar (flashcards)',
@@ -63,6 +66,7 @@ export default function SentraSection() {
       badge: 'Estetika & Motorik Halus',
       color: 'from-rose-500 to-pink-700',
       tabColor: 'border-rose-500 bg-rose-50 text-rose-950',
+      image: '/assets/images/sentra-seni-2.jpeg',
       summary: 'Wadah kebebasan berekspresi, menuangkan ide, dan mengasah kepekaan estetika seni.',
       points: [
         'Melukis dengan kuas, finger painting, dan teknik cap spons warna',
@@ -172,25 +176,41 @@ export default function SentraSection() {
             </div>
 
             {/* Right Fun Highlight Card */}
-            <div className="lg:col-span-5">
-              <div className={`p-8 rounded-3xl bg-gradient-to-br ${current.color} text-white shadow-xl flex flex-col justify-between h-full relative overflow-hidden`}>
+            <div className="lg:col-span-5 flex flex-col gap-4">
+              {/* Sentra Photo Frame */}
+              <div className="relative rounded-3xl overflow-hidden aspect-[16/10] shadow-lg border-3 border-white bg-emerald-100 group">
+                <img
+                  src={current.image}
+                  alt={current.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/60 via-transparent to-transparent"></div>
+                <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between text-white text-xs font-bold">
+                  <span className="px-3 py-1 rounded-full bg-black/40 backdrop-blur-md">
+                    📸 {current.title}
+                  </span>
+                  <span className="text-base">{current.emoji}</span>
+                </div>
+              </div>
+
+              <div className={`p-6 sm:p-7 rounded-3xl bg-gradient-to-br ${current.color} text-white shadow-xl flex flex-col justify-between relative overflow-hidden`}>
                 <div className="absolute -right-6 -bottom-6 text-8xl opacity-15">
                   {current.emoji}
                 </div>
 
                 <div>
-                  <span className="inline-block text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-white/20 backdrop-blur-md mb-4">
+                  <span className="inline-block text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-white/20 backdrop-blur-md mb-3">
                     ✨ Aktivitas Favorit Santri
                   </span>
-                  <h4 className="text-xl sm:text-2xl font-bold font-heading text-white mb-4 leading-snug">
+                  <h4 className="text-lg sm:text-xl font-bold font-heading text-white mb-2 leading-snug">
                     {current.funActivity}
                   </h4>
-                  <p className="text-sm font-medium text-emerald-100 leading-relaxed">
+                  <p className="text-xs sm:text-sm font-medium text-emerald-100 leading-relaxed">
                     Setiap ananda bergantian mengeksplorasi sentra dengan bimbingan bunda guru secara personal dan penuh kasih sayang.
                   </p>
                 </div>
 
-                <div className="mt-8 pt-4 border-t border-white/20 flex items-center justify-between text-xs font-bold text-emerald-100">
+                <div className="mt-4 pt-3 border-t border-white/20 flex items-center justify-between text-xs font-bold text-emerald-100">
                   <span>SPS Salsabila</span>
                   <span>Belajar Sambil Bermain 🎈</span>
                 </div>
