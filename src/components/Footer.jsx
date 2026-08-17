@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { playPopSound } from '../utils/soundEffects';
 import { HiHeart, HiPhone, HiClock, HiLocationMarker, HiSparkles } from 'react-icons/hi';
-import { FaWhatsapp } from 'react-icons/fa';
+import { FaWhatsapp, FaInstagram, FaYoutube } from 'react-icons/fa';
 
 export default function Footer() {
   const { soundEnabled } = useSelector((state) => state.ui);
@@ -122,6 +122,38 @@ export default function Footer() {
                 <div>
                   <p className="font-bold text-white">Kelompok Usia</p>
                   <p className="text-xs text-emerald-300">Kelompok A (4-5 th) & Kelompok B (5-6 th)</p>
+                </div>
+              </div>
+
+              {/* Media Sosial Resmi */}
+              <div className="pt-3 border-t border-emerald-800/60 space-y-2">
+                <p className="text-xs font-bold text-amber-300 uppercase tracking-wider">
+                  Ikuti Media Sosial Kami:
+                </p>
+                <div className="flex flex-wrap gap-2.5">
+                  <a
+                    href="https://www.instagram.com/spssalsabila"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => playPopSound(soundEnabled)}
+                    className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-xl bg-gradient-to-r from-pink-600 via-rose-500 to-amber-500 text-white font-bold text-xs shadow-md hover:scale-105 transition-transform"
+                    title="Instagram @spssalsabila"
+                  >
+                    <FaInstagram className="w-4 h-4" />
+                    <span>@spssalsabila</span>
+                  </a>
+
+                  <a
+                    href="https://youtube.com/@ypilia-salsabila7877?si=_Y40B6qV1j3LucDZ"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => playPopSound(soundEnabled)}
+                    className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-xl bg-red-600 hover:bg-red-700 text-white font-bold text-xs shadow-md hover:scale-105 transition-transform"
+                    title="YouTube YPI-LIA Salsabila"
+                  >
+                    <FaYoutube className="w-4 h-4" />
+                    <span>YPI-LIA Salsabila</span>
+                  </a>
                 </div>
               </div>
             </div>
