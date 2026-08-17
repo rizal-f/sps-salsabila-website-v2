@@ -50,11 +50,11 @@ export default function VisiMisiSection() {
   ];
 
   return (
-    <section id="visi" className="py-20 relative bg-gradient-to-b from-transparent via-emerald-50/50 to-transparent">
+    <section id="visi" className="py-20 relative bg-gradient-to-b from-transparent via-emerald-50/50 to-transparent overflow-hidden">
       
       {/* Decorative Floating Emojis */}
-      <div className="absolute top-10 left-6 text-2xl animate-float-slow opacity-40">⭐</div>
-      <div className="absolute bottom-10 right-8 text-2xl animate-float-reverse opacity-40">🌱</div>
+      <div className="absolute top-10 left-4 text-2xl animate-float-slow opacity-40 pointer-events-none">⭐</div>
+      <div className="absolute bottom-10 right-4 text-2xl animate-float-reverse opacity-40 pointer-events-none">🌱</div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         

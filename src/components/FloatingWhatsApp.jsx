@@ -16,7 +16,7 @@ export default function FloatingWhatsApp() {
   );
 
   return (
-    <div className="fixed bottom-6 right-6 z-40 flex items-center gap-3">
+    <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-40 flex items-center gap-2 sm:gap-3">
       {/* Tooltip hint */}
       <a
         href={`https://wa.me/${adminPhone}?text=${defaultMsg}`}

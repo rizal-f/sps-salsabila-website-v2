@@ -26,14 +26,14 @@ export default function MascotWidget() {
   const message = mascotGreetings[currentGreetingIndex] || mascotGreetings[0];
 
   return (
-    <div className="fixed bottom-6 left-6 z-40 flex items-end gap-3 pointer-events-auto">
+    <div className="fixed bottom-4 left-4 sm:bottom-6 sm:left-6 z-40 flex items-end gap-3 pointer-events-auto">
       
       {/* Interactive Mascot Character */}
       <div className="relative group">
         
         {/* Speech Bubble */}
         {bubbleVisible && (
-          <div className="absolute bottom-20 left-0 w-64 sm:w-72 p-4 rounded-3xl bg-white border-2 border-amber-300 shadow-2xl animate-pop-in z-50">
+          <div className="absolute bottom-18 sm:bottom-20 left-0 w-60 sm:w-72 max-w-[calc(100vw-5rem)] p-3.5 sm:p-4 rounded-3xl bg-white border-2 border-amber-300 shadow-2xl animate-pop-in z-50">
             <div className="flex items-start justify-between gap-2 mb-1">
               <div className="flex items-center gap-1.5">
                 <span className="text-xs font-extrabold text-amber-900 bg-amber-100 px-2 py-0.5 rounded-full">

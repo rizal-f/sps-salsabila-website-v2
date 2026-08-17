@@ -173,9 +173,9 @@ export default function HeroSection() {
             <div
               onClick={handleSunClick}
               title="Klik aku untuk kejutan ceria!"
-              className="absolute -top-10 -right-6 sm:-top-12 sm:-right-8 z-30 cursor-pointer group transition-transform hover:scale-110 active:scale-95"
+              className="absolute -top-6 -right-1 sm:-top-10 sm:-right-4 z-30 cursor-pointer group transition-transform hover:scale-110 active:scale-95"
             >
-              <div className="relative w-24 h-24 sm:w-28 sm:h-28 flex items-center justify-center">
+              <div className="relative w-20 h-20 sm:w-28 sm:h-28 flex items-center justify-center">
                 {/* Sun Rays Rotating */}
                 <div className="absolute inset-0 animate-sun-spin">
                   <svg viewBox="0 0 100 100" className="w-full h-full text-amber-400 drop-shadow-md">
@@ -195,27 +195,27 @@ export default function HeroSection() {
                 </div>
 
                 {/* Sun Face Circle */}
-                <div className="relative w-16 h-16 sm:w-18 sm:h-18 rounded-full bg-gradient-to-tr from-amber-400 to-yellow-300 border-2 border-amber-500 flex flex-col items-center justify-center shadow-lg shadow-amber-500/30">
+                <div className="relative w-14 h-14 sm:w-18 sm:h-18 rounded-full bg-gradient-to-tr from-amber-400 to-yellow-300 border-2 border-amber-500 flex flex-col items-center justify-center shadow-lg shadow-amber-500/30">
                   <div className="flex gap-2 mb-1">
                     {sunWinking ? (
                       <>
-                        <span className="w-2.5 h-0.5 bg-emerald-950 rounded-full inline-block"></span>
-                        <span className="w-2.5 h-2.5 bg-emerald-950 rounded-full inline-block"></span>
+                        <span className="w-2 h-0.5 bg-emerald-950 rounded-full inline-block"></span>
+                        <span className="w-2 h-2 bg-emerald-950 rounded-full inline-block"></span>
                       </>
                     ) : (
                       <>
-                        <span className="w-2 h-2 bg-emerald-950 rounded-full inline-block group-hover:scale-y-50 transition-transform"></span>
-                        <span className="w-2 h-2 bg-emerald-950 rounded-full inline-block group-hover:scale-y-50 transition-transform"></span>
+                        <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-emerald-950 rounded-full inline-block group-hover:scale-y-50 transition-transform"></span>
+                        <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-emerald-950 rounded-full inline-block group-hover:scale-y-50 transition-transform"></span>
                       </>
                     )}
                   </div>
                   {/* Rosy Cheeks */}
-                  <div className="flex justify-between w-10 px-1 -mt-1">
-                    <span className="w-2 h-1 bg-rose-400 rounded-full"></span>
-                    <span className="w-2 h-1 bg-rose-400 rounded-full"></span>
+                  <div className="flex justify-between w-8 sm:w-10 px-1 -mt-1">
+                    <span className="w-1.5 h-1 bg-rose-400 rounded-full"></span>
+                    <span className="w-1.5 h-1 bg-rose-400 rounded-full"></span>
                   </div>
                   {/* Smile */}
-                  <div className="w-4 h-2 border-b-2 border-emerald-950 rounded-b-full"></div>
+                  <div className="w-3 sm:w-4 h-1.5 sm:h-2 border-b-2 border-emerald-950 rounded-b-full"></div>
                 </div>
 
                 {/* Little speech hint */}
@@ -226,14 +226,14 @@ export default function HeroSection() {
             </div>
 
             {/* Main Image Frame with Polaroid & Stickers */}
-            <div className="relative w-full max-w-md mx-auto">
+            <div className="relative w-full max-w-md mx-auto px-2 sm:px-0">
               
               {/* Outer Decorative Glow Border */}
-              <div className="absolute -inset-3 bg-gradient-to-tr from-emerald-400 via-amber-300 to-rose-300 rounded-[2.5rem] blur-sm opacity-70 group-hover:opacity-100 transition duration-500"></div>
+              <div className="absolute -inset-1.5 sm:-inset-3 bg-gradient-to-tr from-emerald-400 via-amber-300 to-rose-300 rounded-[2.2rem] sm:rounded-[2.5rem] blur-sm opacity-70 group-hover:opacity-100 transition duration-500"></div>
 
               {/* Main Photo Card */}
-              <div className="relative bg-white p-3.5 sm:p-4 rounded-[2.2rem] shadow-2xl border-4 border-white overflow-hidden">
-                <div className="relative rounded-3xl overflow-hidden aspect-[4/3] bg-emerald-100">
+              <div className="relative bg-white p-3 sm:p-4 rounded-[2rem] sm:rounded-[2.2rem] shadow-2xl border-4 border-white overflow-hidden">
+                <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden aspect-[4/3] bg-emerald-100">
                   <img
                     src="/assets/images/lanskap-sekolah.jpg"
                     alt="Lanskap Sekolah SPS Salsabila"
@@ -243,38 +243,38 @@ export default function HeroSection() {
                   <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/40 via-transparent to-transparent"></div>
                   
                   {/* Photo Corner Badge */}
-                  <div className="absolute bottom-3 left-3 right-3 bg-white/95 backdrop-blur-md px-4 py-2.5 rounded-2xl border border-white/80 shadow-md flex items-center justify-between">
+                  <div className="absolute bottom-2.5 left-2.5 right-2.5 sm:bottom-3 sm:left-3 sm:right-3 bg-white/95 backdrop-blur-md px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl sm:rounded-2xl border border-white/80 shadow-md flex items-center justify-between">
                     <div className="flex items-center gap-2">
-                      <span className="text-xl">🏫</span>
+                      <span className="text-lg sm:text-xl">🏫</span>
                       <div>
                         <p className="text-xs font-bold text-emerald-950">Lingkungan Belajar Asri</p>
                         <p className="text-[10px] font-semibold text-emerald-700">Aman, Luas & Nyaman</p>
                       </div>
                     </div>
-                    <span className="px-2.5 py-1 rounded-full bg-emerald-100 text-emerald-800 font-bold text-[11px]">
+                    <span className="px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-full bg-emerald-100 text-emerald-800 font-bold text-[10px] sm:text-[11px]">
                       SPS Salsabila
                     </span>
                   </div>
                 </div>
 
                 {/* Decorative Stickers on Frame */}
-                <div className="absolute -top-3 left-6 bg-rose-400 text-white text-xs font-extrabold px-3 py-1 rounded-full shadow-md -rotate-6 border-2 border-white">
+                <div className="absolute -top-3 left-6 bg-rose-400 text-white text-[11px] sm:text-xs font-extrabold px-3 py-1 rounded-full shadow-md -rotate-6 border-2 border-white">
                   ❤️ Kasih Sayang
                 </div>
-                <div className="absolute -bottom-2 -right-2 bg-amber-400 text-emerald-950 text-xs font-extrabold px-3 py-1 rounded-full shadow-md rotate-3 border-2 border-white">
+                <div className="absolute -bottom-2 -right-2 bg-amber-400 text-emerald-950 text-[11px] sm:text-xs font-extrabold px-3 py-1 rounded-full shadow-md rotate-3 border-2 border-white">
                   🎨 Kreatif & Ceria
                 </div>
               </div>
 
               {/* Little Floating Child Quote Card */}
-              <div className="absolute -bottom-6 -left-4 sm:-left-8 bg-white/95 backdrop-blur-md p-3.5 rounded-2xl border-2 border-emerald-200 shadow-xl max-w-[240px] animate-float-reverse">
-                <div className="flex items-center gap-2 mb-1">
-                  <div className="w-6 h-6 rounded-full bg-emerald-500 text-white flex items-center justify-center text-xs">
+              <div className="absolute -bottom-5 left-1 sm:-left-4 bg-white/95 backdrop-blur-md p-3 sm:p-3.5 rounded-2xl border-2 border-emerald-200 shadow-xl max-w-[200px] sm:max-w-[240px] animate-float-reverse">
+                <div className="flex items-center gap-1.5 sm:gap-2 mb-1">
+                  <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-emerald-500 text-white flex items-center justify-center text-[10px] sm:text-xs">
                     ⭐
                   </div>
-                  <p className="text-xs font-bold text-emerald-950">Model Sentra Islami</p>
+                  <p className="text-[11px] sm:text-xs font-bold text-emerald-950">Model Sentra Islami</p>
                 </div>
-                <p className="text-[11px] text-emerald-800/80 font-medium">
+                <p className="text-[10px] sm:text-[11px] text-emerald-800/80 font-medium leading-tight">
                   Mengembangkan kecerdasan majemuk anak sejak usia dini.
                 </p>
               </div>

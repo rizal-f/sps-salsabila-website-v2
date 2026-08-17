@@ -8,10 +8,10 @@ export default function VideoPengenalanSection() {
   const { soundEnabled } = useSelector((state) => state.ui);
 
   return (
-    <section id="pengenalan" className="py-16 md:py-20 relative">
+    <section id="pengenalan" className="py-16 md:py-20 relative overflow-hidden">
       {/* Decorative background blurs */}
-      <div className="absolute top-1/2 -left-20 w-80 h-80 bg-amber-200/30 rounded-full blur-3xl -z-10"></div>
-      <div className="absolute top-1/3 -right-20 w-80 h-80 bg-emerald-200/30 rounded-full blur-3xl -z-10"></div>
+      <div className="absolute top-1/2 -left-20 w-80 h-80 bg-amber-200/30 rounded-full blur-3xl -z-10 pointer-events-none"></div>
+      <div className="absolute top-1/3 -right-20 w-80 h-80 bg-emerald-200/30 rounded-full blur-3xl -z-10 pointer-events-none"></div>
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         
@@ -30,10 +30,10 @@ export default function VideoPengenalanSection() {
         </div>
 
         {/* Video Frame Card */}
-        <div className="relative group">
+        <div className="relative group px-1 sm:px-0">
           
           {/* Outer Glowing Gradient Ring */}
-          <div className="absolute -inset-2.5 sm:-inset-4 bg-gradient-to-r from-red-500 via-amber-400 to-emerald-400 rounded-[2.5rem] sm:rounded-[3rem] blur-md opacity-75 group-hover:opacity-100 transition duration-500"></div>
+          <div className="absolute -inset-1 sm:-inset-3 bg-gradient-to-r from-red-500 via-amber-400 to-emerald-400 rounded-[2.2rem] sm:rounded-[3rem] blur-sm opacity-75 group-hover:opacity-100 transition duration-500"></div>
 
           {/* Video Container Box */}
           <div className="relative bg-white p-3 sm:p-5 rounded-[2.2rem] sm:rounded-[2.7rem] shadow-2xl border-4 border-white overflow-hidden">

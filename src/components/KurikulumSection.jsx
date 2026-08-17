@@ -29,7 +29,7 @@ export default function KurikulumSection() {
   ];
 
   return (
-    <section className="py-16 relative">
+    <section className="py-16 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Banner Card */}

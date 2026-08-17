@@ -71,7 +71,7 @@ export default function Navbar() {
   };
 
   return (
-    <header className="sticky top-0 z-50 bg-[#FFFDF4]/95 backdrop-blur-md border-b-2 border-emerald-100 shadow-xs transition-all duration-200">
+    <header className="fixed top-0 inset-x-0 z-50 bg-[#FFFDF4]/95 backdrop-blur-md border-b-2 border-emerald-100 shadow-xs transition-all duration-200 w-full">
       <div className="max-w-7xl mx-auto px-3 sm:px-5 lg:px-6">
         <div className="flex items-center justify-between h-16 sm:h-18 gap-2 sm:gap-4">
           

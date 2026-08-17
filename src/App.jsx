@@ -42,7 +42,7 @@ export default function App() {
   }, [dispatch]);
 
   return (
-    <div className="min-h-screen flex flex-col relative bg-[#FFFDF4]">
+    <div className="min-h-screen flex flex-col relative bg-[#FFFDF4] overflow-x-hidden w-full max-w-full">
       {/* Sparkle Click Trail */}
       <SparkleEffect />
 
@@ -50,7 +50,7 @@ export default function App() {
       <Navbar />
 
       {/* Main Content */}
-      <main className="flex-grow">
+      <main className="flex-grow w-full max-w-full overflow-x-hidden pt-16 sm:pt-18">
         <HeroSection />
         <QuickStats />
         <VideoPengenalanSection />
