@@ -10,7 +10,7 @@ export default function FaqSection() {
   const faqs = [
     {
       q: 'Berapa usia minimal untuk mendaftar di Kelompok A dan B?',
-      a: 'Untuk Kelompok A usia minimal adalah 4 tahun per 31 Juli 2025, sedangkan untuk Kelompok B usia minimal adalah 5 tahun per 31 Juli 2025.',
+      a: 'Untuk Kelompok A usia minimal adalah 4 tahun per 31 Juli, sedangkan untuk Kelompok B usia minimal adalah 5 tahun per 31 Juli.',
       emoji: '🎂',
     },
     {

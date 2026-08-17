@@ -112,7 +112,7 @@ Pesan / Pertanyaan: ${customMessage.trim() || 'Saya ingin mendaftar di SPS Salsa
                     <span className="w-6 h-6 rounded-lg bg-emerald-600 text-white flex items-center justify-center text-xs">
                       1
                     </span>
-                    <h4>Kelahiran Minimal (per 31 Juli 2025)</h4>
+                    <h4>Kelahiran Minimal (per 31 Juli)</h4>
                   </div>
                   <ul className="text-xs sm:text-sm font-semibold text-emerald-900/80 space-y-1.5 pl-8 list-disc">
                     <li><strong className="text-emerald-950">Kelompok A:</strong> Usia 4 Tahun</li>

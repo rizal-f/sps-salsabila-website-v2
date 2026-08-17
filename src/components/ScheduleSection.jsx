@@ -24,10 +24,10 @@ export default function ScheduleSection() {
     },
     {
       day: 'Rabu',
-      name: 'Baju Bebas Muslim',
-      emoji: '🕌',
+      name: 'Kebaya & Pangsi',
+      emoji: '🥻',
       color: 'bg-emerald-100 text-emerald-900 border-emerald-200',
-      badge: 'Praktik Ibadah & Santun',
+      badge: 'Pakaian Adat & Budaya',
     },
     {
       day: 'Kamis',
@@ -38,8 +38,8 @@ export default function ScheduleSection() {
     },
     {
       day: 'Jumat',
-      name: 'Baju Putih Suci',
-      emoji: '🤍',
+      name: 'Baju Muslim Putih',
+      emoji: '🕌',
       color: 'bg-sky-100 text-sky-900 border-sky-200',
       badge: 'Jumat Berkah & Tahfidz',
     },
