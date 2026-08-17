@@ -178,6 +178,15 @@
   background: #34D399;
 }
 
+/* Hide scrollbar for horizontal tabs */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 /* Glassmorphism & Card Shapes */
 .glass-card {
   background: rgba(255, 255, 255, 0.85);

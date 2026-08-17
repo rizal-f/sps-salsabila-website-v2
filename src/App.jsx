@@ -5,6 +5,7 @@ import { setActiveSection } from './store/uiSlice';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import QuickStats from './components/QuickStats';
+import VideoPengenalanSection from './components/VideoPengenalanSection';
 import VisiMisiSection from './components/VisiMisiSection';
 import KurikulumSection from './components/KurikulumSection';
 import ProgramSection from './components/ProgramSection';
@@ -52,6 +53,7 @@ export default function App() {
       <main className="flex-grow">
         <HeroSection />
         <QuickStats />
+        <VideoPengenalanSection />
         <VisiMisiSection />
         <KurikulumSection />
         <ProgramSection />
