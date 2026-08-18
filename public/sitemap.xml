@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://sps-salsabila.sch.id/</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    
+    <!-- Image Metadata for Google Images Indexing -->
+    <image:image>
+      <image:loc>https://sps-salsabila.sch.id/assets/images/logo-salsabila.png</image:loc>
+      <image:title>Logo Resmi SPS Salsabila</image:title>
+      <image:caption>Logo Resmi Pendidikan Anak Usia Dini SPS Salsabila</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://sps-salsabila.sch.id/assets/images/lanskap-sekolah.jpg</image:loc>
+      <image:title>Lingkungan Belajar SPS Salsabila</image:title>
+      <image:caption>Gedung dan suasana asri tempat belajar santri SPS Salsabila</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://sps-salsabila.sch.id/assets/images/sentra-ibadah.jpeg</image:loc>
+      <image:title>Kegiatan Sentra Ibadah SPS Salsabila</image:title>
+      <image:caption>Pembiasaan sholat berjamaah dan penanaman akhlak islami sejak dini</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://sps-salsabila.sch.id/assets/images/sentra-bahan-alam.jpeg</image:loc>
+      <image:title>Kegiatan Sentra Bahan Alam SPS Salsabila</image:title>
+      <image:caption>Eksplorasi sensori dan sains sederhana bagi anak usia dini</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://sps-salsabila.sch.id/assets/images/sentra-persiapan.jpg</image:loc>
+      <image:title>Kegiatan Sentra Persiapan SPS Salsabila</image:title>
+      <image:caption>Pembelajaran pra-membaca, pra-menulis, dan berhitung ceria</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://sps-salsabila.sch.id/assets/images/sentra-seni-2.jpeg</image:loc>
+      <image:title>Kreasi Sentra Seni SPS Salsabila</image:title>
+      <image:caption>Mengekspresikan imajinasi dan karya kreatif ananda di sentra seni</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://sps-salsabila.sch.id/assets/images/outing-class-manasik-haji.jpg</image:loc>
+      <image:title>Outing Class Manasik Haji SPS Salsabila</image:title>
+      <image:caption>Praktik simulasi manasik haji anak usia dini</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://sps-salsabila.sch.id/assets/images/fun-cooking.jpeg</image:loc>
+      <image:title>Fun Cooking Cilik SPS Salsabila</image:title>
+      <image:caption>Kegiatan memasak sederhana melatih motorik halus dan kemandirian</image:caption>
+    </image:image>
+  </url>
+</urlset>

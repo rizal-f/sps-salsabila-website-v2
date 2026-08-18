@@ -1,0 +1,6 @@
+# robots.txt for SPS Salsabila
+User-agent: *
+Allow: /
+
+# Google Search Console Sitemap
+Sitemap: https://sps-salsabila.sch.id/sitemap.xml
