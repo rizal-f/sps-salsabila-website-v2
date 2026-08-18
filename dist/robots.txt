@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Google Search Console Sitemap
-Sitemap: https://sps-salsabila.sch.id/sitemap.xml
+Sitemap: https://www.sps-salsabila.sch.id/sitemap.xml
