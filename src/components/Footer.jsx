@@ -121,7 +121,15 @@ export default function Footer() {
                 <HiSparkles className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" />
                 <div>
                   <p className="font-bold text-white">Kelompok Usia</p>
-                  <p className="text-xs text-emerald-300">Kelompok A (4-5 th) & Kelompok B (5-6 th)</p>
+                  <p className="text-xs text-emerald-300">Kelompok A (4-5 th) &amp; Kelompok B (5-6 th)</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <HiLocationMarker className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" />
+                <div>
+                  <p className="font-bold text-white">Lokasi Sekolah</p>
+                  <p className="text-xs text-emerald-300">SPS Salsabila, Bogor, Jawa Barat, Indonesia</p>
                 </div>
               </div>
 
